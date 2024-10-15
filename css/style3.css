@@ -3,14 +3,13 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #orange;
   color: #333;
   line-height: 1.6;
 }
 
 h1, h2 {
   font-family: 'Devonshire', cursive;
-  color: orange;
+  
 }
 
 
@@ -58,7 +57,6 @@ h1 {
   text-align: center;
   margin-top: 20px;
   font-size: 6em;
-  color: #White;
 }
 
 h2 {
