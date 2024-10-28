@@ -33,22 +33,22 @@ h1, h2 {
 }
 
 .nav ul li a {
-  color: white;
+  color: #7FFF00;
   text-decoration: none;
   font-size: 18px;
 }
 
 .nav ul li a:hover {
   text-decoration: underline;
-}
+  }
 
 
 section {
-  margin: 20px;
+  margin: 50px;
   padding: 10px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffebf0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(50, 50, 110, 100.1);
 }
 
 h1 {
