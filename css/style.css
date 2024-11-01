@@ -50,13 +50,14 @@ section {
   background-color: #ffebf0;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(50, 50, 110, 100.1);
-  
+   list-style-type: none;
 }
+
 
 h1 {
   text-align: center;
   margin-top: 20px;
-  font-size: 36px;
+  font-size: 48px;
 }
 
 h2 {
@@ -64,12 +65,21 @@ h2 {
   margin-top: 20px;
   border-bottom: 2px solid #4a90e2;
   padding-bottom: 5px;
-  font-size: 24px;
+  font-size: 30px;
+}
+#info h2 {
+  color: #333;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 5px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  text-align: center;
 }
 
 
 ul, ol {
   margin-left: 20px;
+   list-style-type: none;
 }
 
 ul li, ol li {
@@ -98,13 +108,24 @@ strong {
   text-decoration: underline;
 }
 
+#Goals h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.goals {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 footer {
   text-align: center;
   padding: 10px 0;
   background-color: #333;
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 footer em {
