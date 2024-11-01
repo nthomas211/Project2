@@ -12,7 +12,17 @@ body {
 h1, h2 {
   font-family: 'Devonshire', cursive;
   color: black;
+ }
+ 
+#States ul li, #States{
+ font-size: 24px;
+ font-weight: bold;
+ text-align: center;
 }
+#States h2 {
+  font-size: 36px;
+}
+
 
 
 .nav {
@@ -43,16 +53,25 @@ h1, h2 {
   text-decoration: underline;
   }
 
-
+#Books {
+  text-align: center;
+}
+#States {
+  margin: 100px;
+  padding: 100px;
+  background-color: #ffebf0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(50, 50, 110, 100.1);
+  list-style-type: none;  
+}
 section {
   margin: 50px;
   padding: 10px;
   background-color: #ffebf0;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(50, 50, 110, 100.1);
-   list-style-type: none;
+  list-style-type: none;
 }
-
 
 h1 {
   text-align: center;
@@ -84,6 +103,7 @@ ul, ol {
 
 ul li, ol li {
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 strong {
@@ -118,6 +138,8 @@ strong {
   font-weight: bold;
   text-align: center;
 }
+
+
 
 
 footer {
